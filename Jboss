@@ -6,6 +6,9 @@ time >> File System Handler
 File System Handler : Is a server/container that processes the code related to Scripting programming languages and has a unique
 capability to deliever the static content.
 
+Servlet/ JSP >> Static and Dynamic >> Servlet Container
+Anything and Everything related to Servlet/JSP is taken care by Servlet Container
 
-Servelt/ JSP >> Static and Dynamic >> Servlet Container
+Scripting Language >> Static Content
+Anything and Everything related to Scripting Language is taken care by File System Handler
 
