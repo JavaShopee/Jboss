@@ -5,10 +5,26 @@ time >> File System Handler
 
 File System Handler : Is a server/container that processes the code related to Scripting programming languages and has a unique
 capability to deliever the static content.
+Responsible to process the code and generate the static content.
 
-Servlet/ JSP >> Static and Dynamic >> Servlet Container
+Servlet/JSP >> Static and Dynamic Content >> Web Server(Servlet Container) >> Protocol Dependent Server
 Anything and Everything related to Servlet/JSP is taken care by Servlet Container
+
+EJB /RMI :  Static and Dynamic Content + Remote communication >> Application Server(Protocol Independent Server) 
+capability to run business
+logic + Security (Transaction Mgt, Database Sources, Resource Pooling)
+
+Application Server = File System Handler + Servlet Container +  EJB /RMI Container
+JBoss AS : is an AS 100% Java/J2EE complaint AS
 
 Scripting Language >> Static Content
 Anything and Everything related to Scripting Language is taken care by File System Handler
 
+
+JBoss (now wildfly.com rebranding of JBoss community edition) 
+Standard Edition(SE) : >> n vesion  >> Free of cost 
+Enterprise Edition : SLA based defined product/Licence Agreement >> n-1 vesion >> JBoss Enterprise Application Platform EAP
+
+**************************************************************Jboss****************************************************************
+Domain Mode :       is a mode which will allow JAS to keep on adding additional servers horrizontally >> Prod Env >> 
+Standalone Mode :   is by default >> keep on adding additional servers vertically
